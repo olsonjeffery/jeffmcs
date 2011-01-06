@@ -1,0 +1,9 @@
+#Whitelist. Add your users here
+pfox__
+bik
+EmmanuelGoldstn
+tychos
+moshea
+amadday
+akyouser
+the1llest
