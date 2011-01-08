@@ -3,14 +3,12 @@ express = require 'express'
 _ = require 'underscore'
 
 # templates
-mainTemplate = require './views/main'
+renderMain = _.template require('./views/main')
 
 # setup/config
 app = module.exports = express.createServer()
 
 app.configure () ->
-  app.set('views', __dirname + '/views')
-  app.set('view engine', 'jade')
   app.use(express.bodyDecoder())
   app.use(express.methodOverride())
   app.use(app.router)
@@ -23,7 +21,7 @@ app.configure 'production', ->
 
 # handlers
 app.get '/', (req, res) ->
-  res.send _.template(mainTemplate)()
+  res.send renderMain()
 
 # server startup
 if !module.parent
