@@ -57,9 +57,10 @@ task :reclone do
 end
 
 task :newpic do
-  Dir.chdir @worldPicPath
-  sh "./updatepic.sh"
-  Dir.chdir @root
+  sh "../mcmap/mcmap -from -20 -20 -to 20 20 -file webapp/public/worldpics/world.png ./world"
+  sh "convert -size 500x500 webapp/public/worldpics/world.png -resize 500x500 webapp/public/worldpics/world_preview.png"
+  sh "../mcmap/mcmap -night -from -20 -20 -to 20 20 -file webapp/public/worldpics/world_night.png ./world"
+  sh "convert -size 500x500 webapp/public/worldpics/world_night.png -resize 500x500 webapp/public/worldpics/world_night_preview.png"
 end
 
 # new hottness for bukkit-based server. hopefully migrate to

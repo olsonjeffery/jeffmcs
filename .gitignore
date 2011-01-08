@@ -3,3 +3,4 @@ world/
 src/
 server-skeleton/logs
 server/
+webapp/public/worldpics/*png
