@@ -1,0 +1,32 @@
+2010-11-19 14:48:22 [INFO] Starting minecraft server version 0.2.4
+2010-11-19 14:48:22 [INFO] Loading properties
+2010-11-19 14:48:22 [INFO] Starting Minecraft server on *:25565
+2010-11-19 14:48:22 [INFO] Hey0 Server Mod Build 125
+2010-11-19 14:48:22 [INFO] Preparing level "world"
+2010-11-19 14:48:22 [INFO] Preparing start region
+2010-11-19 14:48:23 [INFO] Done! For help, type "help" or "?"
+2010-11-19 14:48:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-19 14:56:16 [INFO] /192.168.1.108:48070 lost connection
+2010-11-19 17:23:00 [INFO] pfox__ [/192.168.1.108:47655] logged in with entity id 1
+2010-11-19 17:23:04 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-19 19:15:09 [INFO] pfox__ lost connection: Quitting
+2010-11-19 19:15:14 [INFO] pfox__ [/192.168.1.108:41402] logged in with entity id 52503
+2010-11-19 19:15:18 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-19 19:18:12 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-19 21:50:04 [INFO] pfox__ lost connection: Internal exception: java.net.SocketException: Connection reset
+2010-11-20 07:18:13 [INFO] pfox__ [/192.168.1.108:59744] logged in with entity id 147223
+2010-11-20 07:18:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-20 07:22:05 [INFO] pfox__ lost connection: Quitting
+2010-11-20 20:22:15 [INFO] pfox__ [/192.168.1.108:51456] logged in with entity id 150831
+2010-11-20 20:22:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-20 20:48:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-20 21:09:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-20 21:10:53 [INFO] pfox__ tried command /t sky
+2010-11-20 21:11:00 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-20 21:12:27 [INFO] pfox__ lost connection: Quitting
+2010-11-22 13:17:04 [INFO] pfox__ [/192.168.1.108:54158] logged in with entity id 186553
+2010-11-22 13:17:07 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-22 15:53:29 [INFO] pfox__ lost connection: Quitting
+2010-11-22 18:55:59 [INFO] CONSOLE: Stopping the server..
+2010-11-22 18:55:59 [INFO] Stopping server
+2010-11-22 18:55:59 [INFO] Saving chunks

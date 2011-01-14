@@ -1,0 +1,56 @@
+2010-11-10 20:28:54 [INFO] Starting minecraft server version 0.2.4
+2010-11-10 20:28:54 [INFO] Loading properties
+2010-11-10 20:28:54 [INFO] Starting Minecraft server on *:25565
+2010-11-10 20:28:54 [INFO] Hey0 Server Mod Build 125
+2010-11-10 20:28:54 [INFO] Preparing level "world"
+2010-11-10 20:28:54 [INFO] Preparing start region
+2010-11-10 20:28:55 [INFO] Done! For help, type "help" or "?"
+2010-11-10 20:28:55 [INFO] Processed plugin 'Items.js'.
+2010-11-10 20:28:55 [INFO] Processed plugin 'Build.js'.
+2010-11-10 20:28:55 [INFO] Processed plugin 'Hitblox.js'.
+2010-11-10 20:28:55 [INFO] JSApi initialized (rev 6)
+2010-11-10 20:28:59 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-10 20:29:23 [INFO] bik [/24.17.145.236:20026] logged in with entity id 65
+2010-11-10 20:29:53 [INFO] <bik> nigger snow
+2010-11-10 20:29:57 [INFO] /192.168.1.108:58039 lost connection
+2010-11-10 20:30:26 [INFO] /192.168.1.108:58041 lost connection
+2010-11-10 20:30:43 [INFO] pfox__ [/192.168.1.108:58049] logged in with entity id 1413
+2010-11-10 20:30:53 [INFO] <bik> nigger snow world
+2010-11-10 20:31:31 [INFO] <bik> I wanna build a trailer park
+2010-11-10 20:31:40 [INFO] <pfox__> i might have to reboot the server
+2010-11-10 20:31:47 [INFO] <pfox__> im a dumbass, forgot to setup perms
+2010-11-10 20:32:21 [INFO] <bik> fuck this snow
+2010-11-10 20:32:21 [INFO] <pfox__> so how's things?
+2010-11-10 20:32:48 [INFO] <pfox__> u should tell jake about the server
+2010-11-10 20:32:53 [INFO] <pfox__> what's his mc username?
+2010-11-10 20:33:01 [INFO] <pfox__> ill add him to the whitelist
+2010-11-10 20:33:06 [INFO] <bik> his computer don't run minecraft
+2010-11-10 20:33:11 [INFO] To run the server without a gui, start it like this:
+2010-11-10 20:33:11 [INFO]    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+2010-11-10 20:33:11 [INFO] Console commands:
+2010-11-10 20:33:11 [INFO]    help  or  ?               shows this message
+2010-11-10 20:33:11 [INFO]    kick <player>             removes a player from the server
+2010-11-10 20:33:11 [INFO]    ban <player>              bans a player from the server
+2010-11-10 20:33:11 [INFO]    pardon <player>           pardons a banned player so that they can connect again
+2010-11-10 20:33:11 [INFO]    ban-ip <ip>               bans an IP address from the server
+2010-11-10 20:33:11 [INFO]    pardon-ip <ip>            pardons a banned IP address so that they can connect again
+2010-11-10 20:33:11 [INFO]    op <player>               turns a player into an op
+2010-11-10 20:33:11 [INFO]    deop <player>             removes op status from a player
+2010-11-10 20:33:11 [INFO]    tp <player1> <player2>    moves one player to the same location as another player
+2010-11-10 20:33:11 [INFO]    give <player> <id> [num]  gives a player a resource
+2010-11-10 20:33:11 [INFO]    tell <player> <message>   sends a private message to a player
+2010-11-10 20:33:11 [INFO]    stop                      gracefully stops the server
+2010-11-10 20:33:11 [INFO]    save-all                  forces a server-wide level save
+2010-11-10 20:33:11 [INFO]    save-off                  disables terrain saving (useful for backup scripts)
+2010-11-10 20:33:11 [INFO]    save-on                   re-enables terrain saving
+2010-11-10 20:33:11 [INFO]    list                      lists all currently connected players
+2010-11-10 20:33:11 [INFO]    say <message>             broadcasts a message to all players
+2010-11-10 20:33:28 [INFO] [CONSOLE] i thought he played MC
+2010-11-10 20:33:38 [INFO] Reloaded mod
+2010-11-10 20:33:50 [INFO] <bik> he had to play in browser so he reinstalled now it dont work at all
+2010-11-10 20:34:53 [INFO] [CONSOLE] ghey
+2010-11-10 20:35:01 [INFO] [CONSOLE] ok reboot
+2010-11-10 20:35:05 [INFO] [CONSOLE] you'll be a mod when you reconnect
+2010-11-10 20:35:05 [INFO] CONSOLE: Stopping the server..
+2010-11-10 20:35:05 [INFO] Stopping server
+2010-11-10 20:35:05 [INFO] Saving chunks

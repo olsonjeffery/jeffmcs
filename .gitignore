@@ -2,6 +2,7 @@
 bin/
 world/
 src/
-server-skeleton/logs
-server/
+server_template/logs
+server_cb/
+server_vanilla/
 webapp/public/worldpics/*png

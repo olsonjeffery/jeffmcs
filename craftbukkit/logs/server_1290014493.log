@@ -1,0 +1,16 @@
+2010-11-17 09:21:33 [INFO] Starting minecraft server version 0.2.4
+2010-11-17 09:21:33 [INFO] Loading properties
+2010-11-17 09:21:33 [INFO] Starting Minecraft server on *:25565
+2010-11-17 09:21:33 [INFO] Hey0 Server Mod Build 125
+2010-11-17 09:21:33 [INFO] Preparing level "world"
+2010-11-17 09:21:33 [INFO] Preparing start region
+2010-11-17 09:21:35 [INFO] Done! For help, type "help" or "?"
+2010-11-17 09:21:38 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-17 09:22:04 [INFO] pfox__ [/192.168.1.103:59906] logged in with entity id 1
+2010-11-17 09:26:06 [INFO] pfox__ lost connection: Timed out
+2010-11-17 09:29:18 [INFO] pfox__ [/192.168.1.108:57237] logged in with entity id 2789
+2010-11-17 09:29:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-11-17 09:43:54 [INFO] pfox__ lost connection: Quitting
+2010-11-17 09:44:06 [INFO] CONSOLE: Stopping the server..
+2010-11-17 09:44:06 [INFO] Stopping server
+2010-11-17 09:44:06 [INFO] Saving chunks

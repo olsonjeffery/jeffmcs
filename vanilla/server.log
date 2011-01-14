@@ -1,0 +1,253 @@
+2011-01-13 18:01:34 [INFO] Starting minecraft server version Beta 1.2
+2011-01-13 18:01:34 [INFO] Loading properties
+2011-01-13 18:01:34 [WARNING] server.properties does not exist
+2011-01-13 18:01:34 [INFO] Generating new properties file
+2011-01-13 18:01:34 [INFO] Starting Minecraft server on *:25565
+2011-01-13 18:01:34 [WARNING] Failed to load ban list: java.io.FileNotFoundException: banned-players.txt (No such file or directory)
+2011-01-13 18:01:34 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: banned-ips.txt (No such file or directory)
+2011-01-13 18:01:34 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: ops.txt (No such file or directory)
+2011-01-13 18:01:34 [INFO] Preparing level "world"
+2011-01-13 18:01:34 [INFO] Preparing start region
+2011-01-13 18:02:16 [INFO] Starting minecraft server version Beta 1.2
+2011-01-13 18:02:16 [INFO] Loading properties
+2011-01-13 18:02:16 [INFO] Starting Minecraft server on *:25565
+2011-01-13 18:02:16 [INFO] Preparing level "world"
+2011-01-13 18:02:16 [INFO] Preparing start region
+2011-01-13 18:02:17 [INFO] Preparing spawn area: 20%
+2011-01-13 18:02:18 [INFO] Preparing spawn area: 40%
+2011-01-13 18:02:19 [INFO] Preparing spawn area: 52%
+2011-01-13 18:02:20 [INFO] Preparing spawn area: 81%
+2011-01-13 18:02:21 [INFO] Done! For help, type "help" or "?"
+2011-01-13 18:02:30 [INFO] pfox__ [/192.168.1.103:49491] logged in with entity id 4
+2011-01-13 18:02:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 18:07:21 [INFO] pfox__ lost connection: disconnect.quitting
+2011-01-13 18:07:47 [INFO] CONSOLE: Stopping the server..
+2011-01-13 18:07:47 [INFO] Stopping server
+2011-01-13 18:07:47 [INFO] Saving chunks
+2011-01-13 18:07:49 [INFO] Starting minecraft server version Beta 1.2
+2011-01-13 18:07:49 [INFO] Loading properties
+2011-01-13 18:07:49 [INFO] Starting Minecraft server on *:25565
+2011-01-13 18:07:49 [INFO] Preparing level "world"
+2011-01-13 18:07:49 [INFO] Preparing start region
+2011-01-13 18:07:50 [INFO] Preparing spawn area: 20%
+2011-01-13 18:07:51 [INFO] Preparing spawn area: 40%
+2011-01-13 18:07:52 [INFO] Preparing spawn area: 52%
+2011-01-13 18:07:53 [INFO] Preparing spawn area: 81%
+2011-01-13 18:07:54 [INFO] Preparing spawn area: 97%
+2011-01-13 18:07:54 [INFO] Done! For help, type "help" or "?"
+2011-01-13 18:07:55 [INFO] To run the server without a gui, start it like this:
+2011-01-13 18:07:55 [INFO]    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+2011-01-13 18:07:55 [INFO] Console commands:
+2011-01-13 18:07:55 [INFO]    help  or  ?               shows this message
+2011-01-13 18:07:55 [INFO]    kick <player>             removes a player from the server
+2011-01-13 18:07:55 [INFO]    ban <player>              bans a player from the server
+2011-01-13 18:07:55 [INFO]    pardon <player>           pardons a banned player so that they can connect again
+2011-01-13 18:07:55 [INFO]    ban-ip <ip>               bans an IP address from the server
+2011-01-13 18:07:55 [INFO]    pardon-ip <ip>            pardons a banned IP address so that they can connect again
+2011-01-13 18:07:55 [INFO]    op <player>               turns a player into an op
+2011-01-13 18:07:55 [INFO]    deop <player>             removes op status from a player
+2011-01-13 18:07:55 [INFO]    tp <player1> <player2>    moves one player to the same location as another player
+2011-01-13 18:07:55 [INFO]    give <player> <id> [num]  gives a player a resource
+2011-01-13 18:07:55 [INFO]    tell <player> <message>   sends a private message to a player
+2011-01-13 18:07:55 [INFO]    stop                      gracefully stops the server
+2011-01-13 18:07:55 [INFO]    save-all                  forces a server-wide level save
+2011-01-13 18:07:55 [INFO]    save-off                  disables terrain saving (useful for backup scripts)
+2011-01-13 18:07:55 [INFO]    save-on                   re-enables terrain saving
+2011-01-13 18:07:55 [INFO]    list                      lists all currently connected players
+2011-01-13 18:07:55 [INFO]    say <message>             broadcasts a message to all players
+2011-01-13 18:08:08 [INFO] Connected players: 
+2011-01-13 18:35:48 [INFO] amadday [/75.172.68.41:52163] logged in with entity id 30
+2011-01-13 18:55:07 [INFO] amadday lost connection: disconnect.timeout
+2011-01-13 18:56:06 [INFO] amadday [/75.172.68.41:52493] logged in with entity id 16146
+2011-01-13 18:56:12 [INFO] tychos [/24.17.145.236:52048] logged in with entity id 16238
+2011-01-13 18:57:50 [INFO] amadday tried command: home
+2011-01-13 18:57:57 [INFO] amadday tried command: home
+2011-01-13 18:59:19 [INFO] amadday tried command: home
+2011-01-13 19:13:16 [INFO] amadday tried command: home
+2011-01-13 19:16:52 [INFO] [CONSOLE] sorry
+2011-01-13 19:16:58 [INFO] [CONSOLE] we're running the vanilla server right now
+2011-01-13 19:17:07 [INFO] [CONSOLE] so none of the cool stuff is working (like /home)
+2011-01-13 19:17:20 [INFO] [CONSOLE] we're stuck with it until bukkit or hmod gets updated
+2011-01-13 19:17:21 [INFO] <amadday> yea i c
+2011-01-13 19:17:43 [INFO] [CONSOLE] we don't have a choice becuz u guys is too n00b to downgrade to the old client
+2011-01-13 19:18:27 [INFO] bik [/75.172.68.41:52807] logged in with entity id 49797
+2011-01-13 19:18:29 [INFO] <amadday> yea so
+2011-01-13 19:18:37 [INFO] bik tried command: who
+2011-01-13 19:21:41 [INFO] tychos lost connection: disconnect.quitting
+2011-01-13 19:32:28 [INFO] tychos [/24.17.145.236:52152] logged in with entity id 62298
+2011-01-13 19:32:41 [INFO] <amadday> tycho tonge!
+2011-01-13 19:38:09 [INFO] <tychos> hi daddy and jake
+2011-01-13 19:39:06 [INFO] <tychos> daddy..i'm right behind you
+2011-01-13 19:39:19 [INFO] <bik> I don't see you
+2011-01-13 19:40:14 [INFO] <tychos> ok
+2011-01-13 19:40:39 [INFO] <bik> we're waiting for mike
+2011-01-13 19:40:48 [INFO] <bik> he's having problems connecting
+2011-01-13 19:42:24 [INFO] <tychos> are you going on a boat
+2011-01-13 19:42:51 [INFO] <bik> yes
+2011-01-13 19:43:03 [INFO] <tychos> argh..ok, what do i tell him cuz i am not sitting here ih ave ceds todo
+2011-01-13 19:43:19 [INFO] <bik> that I said it's time to go upstairs and go to bed
+2011-01-13 19:43:24 [INFO] <tychos> lol tycho says he needs a boat
+2011-01-13 19:43:28 [INFO] <bik> and that I love him very much
+2011-01-13 19:43:39 [INFO] <bik> I need to be there to teach him it's not easy
+2011-01-13 19:43:59 [INFO] <tychos> ok..he is whining now.
+2011-01-13 19:44:14 [INFO] <tychos> he really wants to go
+2011-01-13 19:45:18 [INFO] <tychos> can he warp himself back if he goes and he needs to go take a bath
+2011-01-13 19:45:38 [INFO] <bik> the warp mod isn't working until tomorrow since the update
+2011-01-13 19:45:51 [INFO] <tychos> what has become of me..im on a computer game?
+2011-01-13 19:46:04 [INFO] <bik> it's fucking sexy as fuck too ;)
+2011-01-13 19:46:29 [INFO] <tychos> tycho
+2011-01-13 19:46:51 [INFO] <bik> don't push me in
+2011-01-13 19:47:11 [INFO] <bik> there's squids in there now they[ll fuck you up
+2011-01-13 19:47:19 [INFO] <tychos> lol..he is giggliing and saying ok i'll push you in
+2011-01-13 19:47:35 [INFO] moshea [/75.172.68.41:53628] logged in with entity id 75705
+2011-01-13 19:47:37 [INFO] <bik> tell tycho the new water monster is a squid not a shark like we though
+2011-01-13 19:48:04 [INFO] <bik> fag
+2011-01-13 19:48:15 [INFO] tychos lost connection: disconnect.quitting
+2011-01-13 20:06:46 [INFO] akyouser [/75.172.68.41:54285] logged in with entity id 95177
+2011-01-13 20:06:48 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:08:35 [INFO] amadday tried command: home
+2011-01-13 20:10:15 [INFO] moshea lost connection: disconnect.quitting
+2011-01-13 20:10:20 [INFO] moshea [/75.172.68.41:54358] logged in with entity id 102888
+2011-01-13 20:12:51 [INFO] moshea lost connection: disconnect.quitting
+2011-01-13 20:12:58 [INFO] moshea [/75.172.68.41:54515] logged in with entity id 106618
+2011-01-13 20:35:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:35:40 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:36:05 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:36:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:36:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:36:34 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:36:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:38:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:39:11 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:39:32 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:39:42 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:40:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:41:05 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:41:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:41:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:41:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:42:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:47:02 [INFO] tychos [/24.17.145.236:52450] logged in with entity id 237955
+2011-01-13 20:47:06 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:50:12 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:50:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:50:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:51:02 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:51:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:51:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:52:21 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:52:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:52:45 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:53:08 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:53:38 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:54:24 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:54:56 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:55:39 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:55:55 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:56:06 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:56:23 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:56:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:56:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:56:51 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:57:08 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:57:24 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:57:29 [INFO] Connected players: amadday, bik, akyouser, moshea, tychos
+2011-01-13 20:57:44 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:57:52 [INFO] To run the server without a gui, start it like this:
+2011-01-13 20:57:52 [INFO]    java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+2011-01-13 20:57:52 [INFO] Console commands:
+2011-01-13 20:57:52 [INFO]    help  or  ?               shows this message
+2011-01-13 20:57:52 [INFO]    kick <player>             removes a player from the server
+2011-01-13 20:57:52 [INFO]    ban <player>              bans a player from the server
+2011-01-13 20:57:52 [INFO]    pardon <player>           pardons a banned player so that they can connect again
+2011-01-13 20:57:52 [INFO]    ban-ip <ip>               bans an IP address from the server
+2011-01-13 20:57:52 [INFO]    pardon-ip <ip>            pardons a banned IP address so that they can connect again
+2011-01-13 20:57:52 [INFO]    op <player>               turns a player into an op
+2011-01-13 20:57:52 [INFO]    deop <player>             removes op status from a player
+2011-01-13 20:57:52 [INFO]    tp <player1> <player2>    moves one player to the same location as another player
+2011-01-13 20:57:52 [INFO]    give <player> <id> [num]  gives a player a resource
+2011-01-13 20:57:52 [INFO]    tell <player> <message>   sends a private message to a player
+2011-01-13 20:57:52 [INFO]    stop                      gracefully stops the server
+2011-01-13 20:57:52 [INFO]    save-all                  forces a server-wide level save
+2011-01-13 20:57:52 [INFO]    save-off                  disables terrain saving (useful for backup scripts)
+2011-01-13 20:57:52 [INFO]    save-on                   re-enables terrain saving
+2011-01-13 20:57:52 [INFO]    list                      lists all currently connected players
+2011-01-13 20:57:52 [INFO]    say <message>             broadcasts a message to all players
+2011-01-13 20:57:52 [INFO] Unknown console command. Type "help" for help.
+2011-01-13 20:57:52 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:58:00 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:58:00 [INFO] Unknown console command. Type "help" for help.
+2011-01-13 20:58:05 [INFO] CONSOLE: Kicking akyouser
+2011-01-13 20:58:16 [INFO] akyouser [/75.172.68.41:55894] logged in with entity id 263249
+2011-01-13 20:58:20 [INFO] <amadday> lol
+2011-01-13 20:58:20 [INFO] <akyouser> lol
+2011-01-13 20:58:22 [INFO] <bik> that's funny
+2011-01-13 20:58:30 [INFO] <moshea> huh?
+2011-01-13 20:58:30 [INFO] [CONSOLE] :)
+2011-01-13 20:59:37 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 20:59:51 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:00:14 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:03:41 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:04:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:05:33 [INFO] moshea lost connection: disconnect.quitting
+2011-01-13 21:09:30 [INFO] moshea [/173.150.134.221:11037] logged in with entity id 313210
+2011-01-13 21:13:24 [INFO] tychos lost connection: disconnect.quitting
+2011-01-13 21:15:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:15:57 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:16:01 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:16:05 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:16:11 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:16:16 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:16:48 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:16:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:01 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:19 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:27 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:31 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:49 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:51 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:17:56 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:18:14 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:18:17 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:18:21 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:19:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:19:30 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:19:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 21:25:37 [INFO] [CONSOLE] so whats up
+2011-01-13 21:25:50 [INFO] <moshea> hey jeff
+2011-01-13 21:26:03 [INFO] <moshea> sup
+2011-01-13 21:29:36 [INFO] <bik> just got back from a raid
+2011-01-13 21:29:45 [INFO] <bik> me carl and mike are over at jakes
+2011-01-13 21:30:04 [INFO] <bik> we went a few days to the west until those fuckers died
+2011-01-13 21:30:13 [INFO] <bik> I made it home in one piece with their shit
+2011-01-13 21:31:42 [INFO] bik lost connection: disconnect.quitting
+2011-01-13 21:31:47 [INFO] bik [/75.172.68.41:56778] logged in with entity id 389866
+2011-01-13 21:35:21 [INFO] [CONSOLE] dude
+2011-01-13 21:35:28 [INFO] [CONSOLE] im almost thinking of doing a world restart
+2011-01-13 21:35:29 [INFO] <amadday> dude
+2011-01-13 21:36:00 [INFO] [CONSOLE] did you guys see the spiders yet
+2011-01-13 21:36:09 [INFO] <bik> not really
+2011-01-13 21:36:15 [INFO] <amadday> no
+2011-01-13 21:36:15 [INFO] [CONSOLE] they climb walls now
+2011-01-13 21:36:19 [INFO] <moshea> yeah - one got me
+2011-01-13 21:36:23 [INFO] <bik> and ceilings I heard
+2011-01-13 21:36:28 [INFO] <moshea> landed on my head
+2011-01-13 21:42:08 [INFO] <bik> my condition for the world restart is that if you give us the ability to set warp points
+2011-01-13 21:42:25 [INFO] <bik> otherwise the general opinion seems to be against it
+2011-01-13 21:42:42 [INFO] <moshea> and 20 diamonds ea
+2011-01-13 22:02:47 [INFO] moshea lost connection: disconnect.quitting
+2011-01-13 22:03:49 [INFO] amadday lost connection: disconnect.quitting
+2011-01-13 22:03:54 [INFO] amadday [/75.172.68.41:57659] logged in with entity id 428684
+2011-01-13 22:07:12 [INFO] amadday lost connection: disconnect.quitting
+2011-01-13 22:07:16 [INFO] amadday [/75.172.68.41:57725] logged in with entity id 436092
+2011-01-13 22:08:24 [INFO] bik lost connection: disconnect.quitting
+2011-01-13 22:17:08 [INFO] akyouser lost connection: disconnect.quitting
+2011-01-13 22:19:59 [INFO] amadday lost connection: disconnect.timeout
+2011-01-13 22:47:48 [INFO] akyouser [/75.172.68.41:59541] logged in with entity id 452582
+2011-01-13 22:47:52 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2011-01-13 22:48:10 [INFO] akyouser lost connection: disconnect.quitting
+2011-01-14 08:22:42 [INFO] CONSOLE: Stopping the server..
+2011-01-14 08:22:42 [INFO] Stopping server
+2011-01-14 08:22:42 [INFO] Saving chunks

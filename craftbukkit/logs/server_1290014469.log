@@ -1,0 +1,24 @@
+2010-11-17 09:21:09 [INFO] Starting minecraft server version 0.2.4
+2010-11-17 09:21:09 [INFO] Loading properties
+2010-11-17 09:21:09 [INFO] Starting Minecraft server on *:25565
+2010-11-17 09:21:09 [INFO] Hey0 Server Mod Build 125
+2010-11-17 09:21:09 [INFO] Preparing level "world"
+2010-11-17 09:21:09 [INFO] Preparing start region
+2010-11-17 09:21:10 [INFO] Done! For help, type "help" or "?"
+2010-11-17 09:21:10 [SEVERE] Exception while loading plugin
+java.lang.ClassNotFoundException: JSApi
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at PluginLoader.load(PluginLoader.java:201)
+	at PluginLoader.loadPlugin(PluginLoader.java:159)
+	at PluginLoader.loadPlugins(PluginLoader.java:145)
+	at etc.getLoader(etc.java:227)
+	at jl.a(jl.java:182)
+	at em.f(SourceFile:1371)
+	at et.f(SourceFile:28)
+	at net.minecraft.server.MinecraftServer.h(SourceFile:263)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:208)
+	at bw.run(SourceFile:482)

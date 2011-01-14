@@ -1,0 +1,30 @@
+2010-12-23 09:33:37 [INFO] Starting minecraft server version Beta 1.1_02
+2010-12-23 09:33:37 [INFO] Loading properties
+2010-12-23 09:33:37 [INFO] Starting Minecraft server on *:25565
+2010-12-23 09:33:37 [INFO] Note: your current classpath is: Minecraft_Mod.jar
+2010-12-23 09:33:37 [INFO] hMod Build Information: Undefined version
+2010-12-23 09:33:37 [INFO] Preparing level "world"
+2010-12-23 09:33:37 [INFO] Preparing start region
+2010-12-23 09:33:39 [INFO] Done! For help, type "help" or "?"
+2010-12-23 09:33:42 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-12-23 10:54:07 [INFO] bik [/24.17.145.236:56819] logged in with entity id 8
+2010-12-23 10:57:17 [INFO] bik lost connection: disconnect.quitting
+2010-12-23 11:21:47 [INFO] bik [/24.17.145.236:57100] logged in with entity id 2846
+2010-12-23 11:21:50 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-12-23 11:51:30 [INFO] bik lost connection: disconnect.quitting
+2010-12-23 11:51:53 [INFO] bik [/24.17.145.236:57459] logged in with entity id 22324
+2010-12-23 12:34:25 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2010-12-23 12:35:43 [INFO] [CONSOLE] yo
+2010-12-23 12:35:48 [INFO] [CONSOLE] heh. sweet.
+2010-12-23 12:36:19 [INFO] [CONSOLE] when you interact with inventory.. i can see all the stuff that's in it. im running an alpha build from the developers.. it's full of debug states, apparently
+2010-12-23 12:36:57 [INFO] [CONSOLE] also: ur ghey
+2010-12-23 12:37:40 [INFO] <bik> sorry just found a dungeon
+2010-12-23 12:41:37 [INFO] [CONSOLE] how's the lag been?
+2010-12-23 12:41:41 [INFO] <bik> normal
+2010-12-23 12:41:50 [INFO] [CONSOLE] normal good or normal bad?
+2010-12-23 12:42:01 [INFO] <bik> normal crappy
+2010-12-23 12:42:10 [INFO] [CONSOLE] bummer
+2010-12-23 12:59:42 [INFO] bik lost connection: disconnect.quitting
+2010-12-23 13:52:29 [INFO] CONSOLE: Stopping the server..
+2010-12-23 13:52:29 [INFO] Stopping server
+2010-12-23 13:52:29 [INFO] Saving chunks
