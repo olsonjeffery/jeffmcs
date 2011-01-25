@@ -1,6 +1,7 @@
 *swp
 bin/
 world/
+new_world/
 src/
 server_template/logs
 server_cb/

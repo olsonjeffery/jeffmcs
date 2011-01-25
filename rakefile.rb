@@ -3,6 +3,7 @@ task :default => [:build]
 @root = Dir.pwd
 @serverTemplate = "#{@root}/server_template"
 @cbServerPath = "#{@root}/server_cb"
+@nwServerPath = "#{@root}/server_nw"
 @vanillaServerPath = "#{@root}/server_vanilla"
 @worldPicPath = "#{@root}/worldpics"
 @bukkitPath = "#{@root}/src/bukkit"
@@ -13,21 +14,22 @@ def add_remote(user, repo)
   sh "git fetch #{user}"
 end
 
-def setupDirFromTemplate(serverDir, templateDir, worldDir)
+def setupDirFromTemplate(serverDir, templateDir, worldDir, pluginDir)
   sh "rm -Rf #{serverDir}"
   sh "cp -Rf #{templateDir} #{serverDir}"
   sh "ln -sf #{worldDir} #{serverDir}/world"
+  if pluginDir != false
+    sh "ln -sf #{pluginDir} #{serverDir}/plugins"
+  end
+  sh "ln -sf #{@root}/schematics #{serverDir}/schematics"
 end
-
-# rebuild, setup and run craftbukkit
-task :docb => [:initcb, :runcb]
 
 # download, setup and run the vanilla server 
 task :dovanilla => [:initvanilla, :runvanilla]
 
 # vanilla server setup
 task :initvanilla => [:fetch_minecraft_server] do
-  setupDirFromTemplate @vanillaServerPath, @serverTemplate, "#{@root}/world"
+  setupDirFromTemplate @vanillaServerPath, @serverTemplate, "#{@root}/world", false
   sh "cp #{@root}/bin/minecraft_server.jar #{@vanillaServerPath}/"
 end
 
@@ -62,12 +64,16 @@ task :cbb => [:bb] do
   Dir.chdir @root
 end
 
-task :installcb => [:cbb] do
+task :copybincb do
   sh "cp -Rf #{@root}/bin/craftbukkit.jar #{@cbServerPath}/"
 end
 
+task :installcb => [:cbb, :copybincb]
+
+task :upgradecb => [:gitbukkit, :installcb]
+
 task :setupservercb do
-  setupDirFromTemplate @cbServerPath, @serverTemplate, "#{@root}/world"
+  setupDirFromTemplate @cbServerPath, @serverTemplate, "#{@root}/world", "#{@root}/plugins"
 end
 
 task :gitbukkit do
@@ -92,3 +98,20 @@ task :newpic do
   sh "../mcmap/mcmap -night -from -20 -20 -to 20 20 -file webapp/public/worldpics/world_night.png ./world"
   sh "convert -size 500x500 webapp/public/worldpics/world_night.png -resize 500x500 webapp/public/worldpics/world_night_preview.png"
 end
+
+##################
+### NEW WORLD
+##################
+task :copybinnw do
+  sh "cp -Rf #{@root}/bin/craftbukkit.jar #{@nwServerPath}/"
+end
+
+task :setupservernw do
+  setupDirFromTemplate @nwServerPath, @serverTemplate, "#{@root}/new_world", "#{@root}/plugins"
+end
+
+task :installnw => [:cbb, :copybinnw]
+
+task :upgradenw => [:gitbukkit, :installnw]
+
+task :initnw => [:setupservernw, :upgradenw]

@@ -1,0 +1,97 @@
+#
+# WorldGuard's configuration file
+#
+# About editing this file:
+# - DO NOT USE TABS. You MUST use spaces or Bukkit will complain. If
+#   you use an editor like Notepad++ (recommended for Windows users), you
+#   must configure it to "replace tabs with spaces." In Notepad++, this can
+#   be changed in Settings > Preferences > Language Menu.
+# - Don't get rid of the indents. They are indented so some entries are
+#   in categories (like "enforce-single-session" is in the "protection"
+#   category.
+# - If you want to check the format of this file before putting it
+#   into WorldGuard, paste it into http://yaml-online-parser.appspot.com/
+#   and see if it gives "ERROR:".
+# - Lines starting with # are commentsand so they are ignored.
+#
+# WARNING:
+# Remember to check the compatibility spreadsheet for WorldGuard to see
+# if any features are currently broken in your version of Bukkit.
+#
+
+summary-on-start: on
+
+protection:
+    enforce-single-session: on
+    item-durability: on
+
+simulation:
+    classic-water: off
+    sponge:
+        enable: on
+        radius: 3
+
+physics:
+    no-physics-gravel: off
+    no-physics-sand: off
+    allow-portal-anywhere: off
+    disable-water-damage-blocks: []
+
+ignition:
+    block-tnt: off
+    block-lighter: off
+
+fire:
+    disable-all-fire-spread: off
+    disable-fire-spread-blocks: []
+    disable-lava-fire-spread: on
+    lava-spread-blocks: []
+
+mobs:
+    block-creeper-explosions: off
+    block-creeper-block-damage: on
+
+spawn:
+    login-protection: 3
+    spawn-protection: 0
+    kick-on-death: off
+    exact-respawn: off
+    teleport-to-home-on-death: off
+
+player-damage:
+    disable-fall-damage: off
+    disable-lava-damage: off
+    disable-fire-damage: off
+    disable-drowning-damage: off
+    disable-suffocation-damage: off
+    disable-contact-damage: off
+    teleport-on-suffocation: off
+
+regions:
+    enable: on
+    wand: 287
+    default:
+        build: true
+
+blacklist:
+    logging:
+        console:
+            enable: on
+        database:
+            enable: off
+            dsn: jdbc:mysql://localhost:3306/minecraft
+            user: root
+            password: pass
+            table: blacklist_events
+        file:
+            enable: on
+            path: worldguard/logs/%Y-%m-%d.log
+            open-files: 10
+
+# See http://wiki.sk89q.com/wiki/WorldGuard/Permissions/Bukkit
+permissions:
+    users:
+        pfox__:
+            permissions:
+                - /region
+                - /reloadwg
