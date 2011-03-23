@@ -2,6 +2,7 @@
 bin/
 world/
 new_world/
+plugins/
 src/
 server_template/logs
 server_cb/
