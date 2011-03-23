@@ -93,9 +93,9 @@ end
 
 # worldpic server management
 task :newpic do
-  sh "../mcmap/mcmap -from -20 -20 -to 20 20 -file webapp/public/worldpics/world.png ./world"
+  sh "../mcmap/mcmap -from -35 -35 -to 35 35 -file webapp/public/worldpics/world.png ./world"
   sh "convert -size 500x500 webapp/public/worldpics/world.png -resize 500x500 webapp/public/worldpics/world_preview.png"
-  sh "../mcmap/mcmap -night -from -20 -20 -to 20 20 -file webapp/public/worldpics/world_night.png ./world"
+  sh "../mcmap/mcmap -night -from -35 -35 -to 35 35 -file webapp/public/worldpics/world_night.png ./world"
   sh "convert -size 500x500 webapp/public/worldpics/world_night.png -resize 500x500 webapp/public/worldpics/world_night_preview.png"
 end
 
@@ -115,3 +115,7 @@ task :installnw => [:cbb, :copybinnw]
 task :upgradenw => [:gitbukkit, :installnw]
 
 task :initnw => [:setupservernw, :upgradenw]
+task :runnw do
+  Dir.chdir @nwServerPath
+  sh "./server_nogui_cb.sh"
+end

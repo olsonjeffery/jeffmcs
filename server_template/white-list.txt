@@ -1,0 +1,11 @@
+#whitelist. add your users here
+amadday
+spartan32899
+the1llest
+akyouser
+pfox__
+phasys
+bik
+tychos
+moshea
+themaestro42
